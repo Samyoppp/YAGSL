@@ -32,7 +32,7 @@ public class RobotContainer
                                                                          "swerve/neo"));
 
   // Replace with CommandPS4Controller or CommandJoystick if needed
-  final CommandXboxController driverXbox = new CommandXboxController(0);
+  final CommandXboxController driverXbox = new CommandXboxController(5);
 
   /**
    * The container for the robot. Contains subsystems, OI devices, and commands.
